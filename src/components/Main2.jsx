@@ -45,9 +45,9 @@ const downloadPreviewImage = () => {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
-        link.download = downloadFileName; // Use original file name for download
+        link.download = downloadFileName; // original file name for download
         link.click();
-        window.URL.revokeObjectURL(url); // Release the object URL
+        window.URL.revokeObjectURL(url); // object URL
     }, 'image/jpeg');
 };
 
