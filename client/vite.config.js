@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
 //    base: "/https://github.com/Vinay0022/image_compressor/",
   plugins: [react()],
+
 })
